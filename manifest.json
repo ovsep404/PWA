@@ -12,5 +12,8 @@
             "type": "image/png"
         }
     ],
-    "permissions": ["notifications","camera"]
+    "permissions": [
+        "notifications",
+        "camera"
+    ]
 }

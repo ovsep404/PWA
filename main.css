@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+  min-width: 200px;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+}
+
+#geoBtn {
+  background-color: #9c27b0;
+}
+#batteryBtn {
+  background-color: #ff5722;
+}
+#shareBtn {
+  background-color: #795548;
+}
+#memoryBtn {
+  background-color: #607d8b;
+}
+#cameraBtn {
+  background-color: #e91e63;
+}
+#notifyBtn {
+  background-color: #4caf50;
+}
+#vibrateBtn {
+  background-color: #2196f3;
+}
+#networkBtn {
+  background-color: #3f51b5;
+}
+#wakeLockBtn {
+  background-color: #009688;
+}
+#clipboardBtn {
+  background-color: #ff9800;
+}
+
+#videoElement {
+  width: 100%;
+  max-width: 640px;
+  margin: 20px auto;
+  display: none;
+  border-radius: 8px;
+}
+
+#canvas {
+  display: none;
+}
